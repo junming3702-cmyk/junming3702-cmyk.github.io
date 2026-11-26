@@ -11,7 +11,7 @@ if ('IntersectionObserver' in window) {
       }
     }
   }, { rootMargin: '-20% 0px -60% 0px' });
-  document.querySelectorAll('#research, #project, #approach, #opportunities').forEach(section => observer.observe(section));
+  document.querySelectorAll('main > section[id]').forEach(section => observer.observe(section));
 }
 
 // Progressive enhancement: every example is readable if JavaScript is disabled.
