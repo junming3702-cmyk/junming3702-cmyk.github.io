@@ -23,6 +23,11 @@ Open `http://localhost:8765`. Deploy the `main` branch root through GitHub Pages
 
 ## Design and provenance
 
-The owner requested a personal research presentation inspired by the [Structural Intelligence Lab website](https://hongjo.github.io/#research): a clear navigation bar, serif headings, a dark research section and visual research cards. This site uses original code and original conceptual SVG diagrams; no lab imagery, personnel, affiliations or research results are reused.
+The owner requested a personal research presentation inspired by the [Structural Intelligence Lab website](https://hongjo.github.io/#research): a clear navigation bar, serif headings, a dark research section and visual research cards. The current revision retains the navy, grey-green and ivory palette, uses five GPT Image conceptual illustrations and displays the owner's supplied Tom avatar alongside a Tom wordmark. No lab imagery, personnel, affiliations or research results are reused.
 
 Project descriptions derive from the owner's confirmed contribution statements and the linked public repository. The verification count is explicitly dated and refers to the existing public verification record, not a new website test.
+
+The project section includes a public research summary and three accessible example tabs: source retrieval, independent evidence-gate fixtures, and a document-visibility record. All examples remain readable without JavaScript. The examples are separate component checks, not a fabricated end-to-end LLM run.
+
+- [Content evidence and attribution](docs/CONTENT_EVIDENCE.md)
+- [Final image prompts and provenance](docs/IMAGE_PROMPTS.md)
