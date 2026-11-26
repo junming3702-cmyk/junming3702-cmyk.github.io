@@ -15,7 +15,7 @@
 }
 body { background: var(--paper); color: var(--ink); font-family: var(--serif); font-size: 18px; isolation: isolate; }
 h1, h2, h3, h4, h5, button, input, select, textarea { font-family: var(--serif); }
-.scene-backdrop { position: fixed; z-index: -2; inset: 0; pointer-events: none; background: #142624 url('assets/jiangnan-water-town-v1.jpg') center center / cover no-repeat; }
+.scene-backdrop { position: fixed; z-index: -2; inset: 0; pointer-events: none; background: #142624 url('assets/jiangnan-mist-v2.jpg') center center / cover no-repeat; }
 .scene-backdrop::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(5, 16, 18, .29), rgba(5, 16, 18, .11) 58%, rgba(5, 16, 18, .22)), linear-gradient(0deg, rgba(3, 14, 16, .36), rgba(5, 15, 17, .08)); }
 ::selection { background: #789f8c; color: #071816; }
 a { transition: color .18s, border-color .18s, background .18s; }

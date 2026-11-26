@@ -23,7 +23,7 @@ Open `http://localhost:8765`. Deploy the `main` branch root through GitHub Pages
 
 ## Design and provenance
 
-The current design restores the earlier top navigation and vertical portfolio layout. It uses Times New Roman, dark frosted-glass panels, restrained amber and jade accents, and a small decorative red seal. A photorealistic GPT Image Jiangnan canal scene fills the background. The new treatment is in `styles-water.css`, layered over the existing base styles. The previous archive stylesheet remains in the repository as design history and is not loaded.
+The current design restores the earlier top navigation and vertical portfolio layout. It uses Times New Roman, dark frosted-glass panels, restrained amber and jade accents, and a small decorative red seal. A photorealistic GPT Image Jiangnan canal scene in dark rain and mist fills the background. The new treatment is in `styles-water.css`, layered over the existing base styles. The previous archive stylesheet remains in the repository as design history and is not loaded.
 
 Five existing GPT Image research illustrations retain their navy, grey-green and ivory palette. The supplied Tom avatar remains beside an equally tall Tom wordmark. No third-party biography, qualifications or institutional affiliation is reused. The backdrop is generated from the owner's written scene description and is credited in the footer.
 
