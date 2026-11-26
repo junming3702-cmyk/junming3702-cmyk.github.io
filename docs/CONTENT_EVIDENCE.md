@@ -10,7 +10,9 @@ The website preserves that scope. Linked project artifacts illustrate related sy
 
 ## Project summary
 
-The public research summary describes the problem, implementation approach and observable sample behavior documented in the [main README](https://github.com/junming3702-cmyk/-LLM/blob/main/README.md). It is a portfolio overview, not the private manuscript abstract. Manuscript status remains **submitted**, based on the owner's statement.
+On 26 November 2026, the owner supplied replacement wording for the research-summary headline and the Question, Approach and Evidence paragraphs. The website reproduces that wording, including ordered regulatory retrieval (`L1–L4`), deterministic release gates, five appraisal dimensions and the `IPV01` project results.
+
+The owner-provided summary reports 24 delivered records from 30 selected tasks; source-traceability passes on 23 of 24 delivered records by each of two domain evaluators; acceptance of 21 and 16 records respectively; and case analyses `IPV-U10`, `IPV-U14` and `IPV-U02/U22`. This is the source for the newly stated project-specific results. They were not independently recomputed during this website text update. The public synthetic examples below remain separate component demonstrations. No private manuscript or evaluation workbook was uploaded. Manuscript status remains **submitted**, based on the owner's statement.
 
 ## Example views
 
