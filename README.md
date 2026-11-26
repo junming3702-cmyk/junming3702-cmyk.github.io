@@ -23,9 +23,9 @@ Open `http://localhost:8765`. Deploy the `main` branch root through GitHub Pages
 
 ## Design and provenance
 
-The current design restores the earlier top navigation and vertical portfolio layout. It uses Times New Roman, dark frosted-glass panels, restrained amber and jade accents, and a small decorative red seal. A photorealistic GPT Image Jiangnan canal scene in dark rain and mist fills the background. The new treatment is in `styles-water.css`, layered over the existing base styles. The previous archive stylesheet remains in the repository as design history and is not loaded.
+The current design restores the earlier top navigation and vertical portfolio layout. It uses Times New Roman, dark frosted-glass panels and restrained amber and jade accents. The decorative red seal was removed at the owner’s request. A photorealistic GPT Image Jiangnan canal scene in dark rain and mist fills the background. The new treatment is in `styles-water.css`, layered over the existing base styles. The previous archive stylesheet remains in the repository as design history and is not loaded.
 
-Five existing GPT Image research illustrations retain their navy, grey-green and ivory palette. The supplied Tom avatar remains beside an equally tall Tom wordmark. No third-party biography, qualifications or institutional affiliation is reused. The backdrop is generated from the owner's written scene description and is credited in the footer.
+The project cover and four research-interest illustrations use a consistent GPT Image treatment: traditional Chinese timber architecture, modern photorealistic rendering, structural layers and restrained jade evidence/workflow lines. The approved project cover links an exploded hall to three public synthetic review examples; these visual connections are conceptual, not a claim of implemented BIM-to-contract tracing. The supplied Tom avatar remains beside an equally tall Tom wordmark. No third-party biography, qualifications or institutional affiliation is reused. The backdrop is generated from the owner's written scene description and is credited in the footer.
 
 Project descriptions derive from the owner's confirmed contribution statements and the linked public repository. The verification count is explicitly dated and refers to the existing public verification record, not a new website test.
 
@@ -35,3 +35,5 @@ The project section includes a public research summary and three accessible exam
 - [Final image prompts and provenance](docs/IMAGE_PROMPTS.md)
 
 - [Water-town visual design and background prompt](docs/WATER_TOWN_DESIGN.md)
+
+- [Chinese architectural illustrations and source-grounded case labels](docs/CHINESE_ARCHITECTURE_ASSETS.md)

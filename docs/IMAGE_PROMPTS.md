@@ -1,4 +1,6 @@
-# GPT Image assets
+# Original GPT Image assets
+
+These original assets are retained as design history. The active project and research illustrations are documented in [CHINESE_ARCHITECTURE_ASSETS.md](CHINESE_ARCHITECTURE_ASSETS.md).
 
 Generated with the built-in GPT Image tool on 26 November 2026. The owner requested the original navy, grey-green and ivory palette and the original architectural/workflow illustration style. The four-card screenshot supplied by the owner served only as a style reference.
 

@@ -40,9 +40,7 @@ nav a:hover, nav a[aria-current] { color: var(--amber); border-color: var(--ambe
   backdrop-filter: blur(16px);
 }
 .hero-copy { padding: 29px 30px; background: rgba(9, 29, 30, .74); }
-.hero-kicker { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
-.hero-kicker .eyebrow { max-width: 410px; color: var(--amber); font-size: 12px; letter-spacing: .10em; line-height: 1.7; }
-.chinese-seal { display: inline-block; flex-shrink: 0; border: 2px solid #c35f4b; border-radius: 2px; color: #f5d0af; background: #892e27bd; padding: 3px 4px; font-family: 'Times New Roman', 'Songti SC', SimSun, serif; font-size: 15px; line-height: 1.05; text-align: center; box-shadow: inset 0 0 0 1px #e9a37e66; transform: rotate(-5deg); user-select: none; }
+.hero-kicker { max-width: none; color: var(--amber); font-size: 12px; letter-spacing: .10em; line-height: 1.7; }
 .hero h1 { font-size: clamp(43px, 3.7vw, 54px); line-height: 1.04; font-weight: 400; margin: 14px 0 17px; letter-spacing: -.035em; color: var(--ink); }
 .hero h1 em { color: #b7d9c3; }
 .hero-intro { font-size: 18px; line-height: 1.65; }
@@ -62,6 +60,8 @@ nav a:hover, nav a[aria-current] { color: var(--amber); border-color: var(--ambe
 .hero-photo strong { font-size: 31px; color: var(--ink); }
 .hero-photo figcaption > span:not(.eyebrow) { font-size: 17px; color: #d4dfd5; line-height: 1.7; }
 .hero-photo small { color: #b9ccc4; font-size: 13px; }
+.artwork-link { color: #d8c39f; font-size: 14px; text-decoration: underline; text-underline-offset: 4px; }
+.artwork-link:hover { color: #f1d6ab; }
 .eyebrow { color: var(--amber); font-size: 13px; font-weight: 400; letter-spacing: .10em; }
 .research-section { background: transparent; padding: 0 0 32px; }
 .research-section > .wrap { padding: 34px 32px 28px; }
@@ -174,7 +174,7 @@ dd { color: #e0e7dc; font-size: 16px; }
   .hero { grid-template-columns: 1fr; padding-block: 27px; gap: 22px; }
   .hero-copy, .hero-photo { max-width: none; }
   .hero h1 { font-size: 49px; }
-  .hero-photo > img { max-height: 350px; }
+  .hero-photo > img { max-height: none; }
   .hero-photo figcaption { padding: 23px 27px; }
   .research-heading { gap: 24px; }
   .research-card h3 { font-size: 29px; }
@@ -198,8 +198,7 @@ dd { color: #e0e7dc; font-size: 16px; }
   nav a { font-size: 14px; }
   .scene-backdrop { background-position: 63% center; }
   .hero-copy { padding: 23px 20px; }
-  .hero-kicker { gap: 12px; }
-  .hero-kicker .eyebrow { font-size: 12px; letter-spacing: .06em; }
+  .hero-kicker { font-size: 12px; letter-spacing: .06em; }
   .hero h1 { font-size: 45px; margin-top: 15px; }
   .hero-intro { font-size: 18px; }
   .hero-role { font-size: 16px; }
