@@ -4,9 +4,21 @@ Updated 26 November 2026. Source repository: [Evidence-grounded AI for construct
 
 ## Personal contribution
 
-The owner confirmed these responsibilities: assisting program architecture design; reviewing and accepting outputs; adjusting and optimizing the program; and developing evaluation plans. AI tools assist code implementation and experimental table preparation. Expert participants help check effectiveness and inform evaluation design through interviews.
+Authorship and design responsibility follow the owner's clarification on 26 November 2026: Junming Zhang independently conceived, designed and developed the project. This includes defining its purpose and research questions, designing the complete program architecture, the legal-authority RAG hierarchy, BM25 + dense retrieval, the ordered L1–L4 cascade, the reasoning scheme and gate rules, and completing implementation, output acceptance, refinement and evaluation planning. This clarification supersedes the earlier architecture-support attribution.
 
-The website preserves that scope. Linked project artifacts illustrate related system behavior and evaluation material. They are not presented as proof that the owner individually authored every component, devised each gate rule, or independently implemented the code. No unverified project duration, commercial deployment, productivity improvement or individual design decision is added.
+AI tools assisted code implementation and experimental table preparation under the owner's direction. Domain practitioners appraised outputs and contributed interview feedback to evaluation design.
+
+The following public artifacts support the described mechanisms and settings. Design authorship is attributed from the owner's explicit statement.
+
+| Design contribution | Public implementation evidence |
+| --- | --- |
+| Complete program architecture | [System workflow](https://github.com/junming3702-cmyk/-LLM#for-product-and-applied-ai-teams) |
+| Legal-authority hierarchy, ordered retrieval and BM25 + dense ranking | [Hierarchy retriever](https://github.com/junming3702-cmyk/-LLM/blob/main/phase2_public/src/hierarchy_cascade_retriever.py), including `LEVEL_ORDER`, level/phase partitions and hybrid scoring; [ordered execution](https://github.com/junming3702-cmyk/-LLM/blob/main/phase2_public/src/run_hierarchy_gated_llm_smoke.py) |
+| Source-bound reasoning with temperature 0.1 | [Reasoning runner](https://github.com/junming3702-cmyk/-LLM/blob/main/phase2_public/src/run_hierarchy_gated_llm_smoke.py), including its evidence-constrained prompts and request configuration |
+| Deterministic release gates and gap conditions | [Evidence gate](https://github.com/junming3702-cmyk/-LLM/blob/main/phase2_public/src/llm_abstention_gate.py), [task gate](https://github.com/junming3702-cmyk/-LLM/blob/main/phase2_public/src/task_subconclusion_v1.py) and [gap protocol](https://github.com/junming3702-cmyk/-LLM/blob/main/phase2_public/src/task_gap_protocol_v1.py) |
+| Evaluation planning and output review | [Expert-review protocol](https://github.com/junming3702-cmyk/-LLM/blob/main/phase2_public/evaluation/expert_review/README.md) and [public output examples](https://github.com/junming3702-cmyk/-LLM/blob/main/docs/portfolio/sample-results/RESULTS.md) |
+
+The low-temperature setting is described as part of a reasoning design intended to limit overgeneralization of legal provisions. It is not presented as a standalone guarantee of correct legal interpretation or as a measured causal effect. This attribution update does not change research results or claim commercial deployment or productivity gains.
 
 ## Project summary
 
