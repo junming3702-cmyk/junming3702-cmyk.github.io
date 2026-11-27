@@ -1,5 +1,25 @@
 # Content evidence and attribution
 
+## Personal background and portfolio structure — 27 November 2026
+
+The owner requested a personal homepage with broader background and multiple works, retaining the established visual style, and selected a separate page for the detailed LLM project case study.
+
+Education, employment dates, geographical context, earlier academic work, tools and language proficiency were checked against the owner's existing `Junming_Zhang_Academic_CV_Oct2026.docx` and the 24 November 2026 role-specific Chinese CV. These are owner-supplied biographical records, not independently authenticated credentials. Neither CV is uploaded by this update.
+
+| Homepage statement | Source and boundary |
+| --- | --- |
+| MSc in Construction Management, City University of Hong Kong, 2023–2024 | Academic CV; dissertation concerns BIM-based VR support for MiC. The work is described as a support concept and practitioner-feedback analysis, not an independently verified deployed system. |
+| BEng in Quantity Surveying, Chengdu University, 2018–2022 | Academic CV; undergraduate thesis concerns VR in architectural education. |
+| Assistant Quantity Surveyor, Currie & Brown (China) Limited, Sep 2024–Sep 2025 | Both CVs identify the experience as Hong Kong. The firm's identity does not imply employment in the UK. |
+| Assistant Quantity Surveyor, RongHui Project Management Co., Ltd, Jun 2022–Jun 2023 | Both CVs; work described as mainland China, without adding an unverified city or client. |
+| BIM–VR master's research | Academic CV; individual dissertation work, with no invented performance or adoption metrics. |
+| 15-minute Community Living Circle, April 2024 | Both CVs; collaborative course study using QGIS, POI and demographic data across 103 Hong Kong community centres. Co-authorship is preserved. |
+| Tools, professional methods and language proficiency | Academic CV; listed as experience, without adding mastery levels, certifications or new achievements. |
+
+The 26 November owner clarification of independent AI-project authorship and submitted manuscript status overrides older CV wording. A role-specific CV's industry-only positioning is not reused: the owner explicitly keeps employment and PhD opportunities equally important. No current doctoral enrollment, admission announcement, personal contact details or employer outcome metric is inferred.
+
+The existing tendering summary, contributions and examples are retained in `tendering.html`. Its added availability sentence reflects the 26 November repository audit: the public repository provides synthetic examples and verification records but does not contain task-level IPV01 study records. No private study material is uploaded or newly characterized as public.
+
 Updated 26 November 2026. Source repository: [Evidence-grounded AI for construction tendering](https://github.com/junming3702-cmyk/-LLM), reviewed at commit `fc820494cf730f154a5039cc8fe0080fd7e06923`.
 
 ## Personal contribution

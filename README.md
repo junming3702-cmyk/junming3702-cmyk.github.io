@@ -4,10 +4,11 @@ English portfolio for applied AI roles and PhD opportunities, published at <http
 
 ## Content
 
+- Personal homepage: education, quantity-surveying experience in Hong Kong and mainland China, research interests, selected work, methods and opportunities.
+- Selected work includes the AI tendering prototype, BIM–VR master's research for modular integrated construction, and a collaborative QGIS study of Hong Kong community living circles.
 - PhD research interests: industry digitalization, evidence-grounded decision support, human–AI collaboration, and future cross-sector transfer.
-- Featured project: [Evidence-grounded AI for construction tendering](https://github.com/junming3702-cmyk/-LLM).
-- Direct links to public synthetic examples, generated outputs and verification records.
-- A contribution statement distinguishing the author's role, AI-assisted implementation and expert participation.
+- Dedicated case study: [`tendering.html`](tendering.html), retaining the research summary, independent contributions, IPV01 study summary, public synthetic example tabs and verification links.
+- The homepage's existing `#project` link leads to selected work; former contribution and example anchors continue to the case study through progressive enhancement.
 
 Research interests and intended productivity improvements are presented as future evaluation goals. The current project manuscript is submitted and is not published on this website.
 
@@ -29,7 +30,9 @@ The project cover and four research-interest illustrations use a consistent GPT 
 
 Project descriptions derive from the owner's confirmed contribution statements and the linked public repository. The verification count is explicitly dated and refers to the existing public verification record, not a new website test.
 
-The project section includes a public research summary and three accessible example tabs: source retrieval, independent evidence-gate fixtures, and a document-visibility record. All examples remain readable without JavaScript. The examples are separate component checks, not a fabricated end-to-end LLM run.
+The case-study page includes a public research summary and three accessible example tabs: source retrieval, independent evidence-gate fixtures, and a document-visibility record. All examples remain readable without JavaScript. The examples are separate component checks, not a fabricated end-to-end LLM run. The page distinguishes the IPV01 summary from the publicly available synthetic records.
+
+The 27 November 2026 revision makes personal background and multiple projects the homepage's organizing structure. `styles-profile.css` adds responsive layouts in the existing palette and typography; the water-town backdrop and approved illustrations are retained. Education, employment and earlier academic work come from the owner's existing CV documents, with newer explicit statements taking precedence over older project-role and manuscript-status wording. No CV file or private study records are published by this revision.
 
 - [Content evidence and attribution](docs/CONTENT_EVIDENCE.md)
 - [Final image prompts and provenance](docs/IMAGE_PROMPTS.md)

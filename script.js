@@ -1,4 +1,15 @@
 // Progressive enhancement: all navigation and content work without JavaScript.
+// Preserve old links to the project details after separating the personal homepage.
+if (document.body.classList.contains('portfolio-home')) {
+  const projectHashes = new Set(['#approach', '#examples', '#example-retrieval', '#example-gate', '#example-visibility', '#brief-title']);
+  const routeProjectHash = () => {
+    if (projectHashes.has(window.location.hash)) {
+      window.location.replace(`tendering.html${window.location.hash}`);
+    }
+  };
+  window.addEventListener('hashchange', routeProjectHash);
+  routeProjectHash();
+}
 const links = [...document.querySelectorAll('nav a[href^="#"]')];
 if ('IntersectionObserver' in window) {
   const observer = new IntersectionObserver(entries => {
@@ -31,7 +42,8 @@ if (tablist) {
     }
   };
   tablist.hidden = false;
-  activate(tabs[0]);
+  const initialTab = tabs.find(tab => `#${tab.getAttribute('aria-controls')}` === window.location.hash) || tabs[0];
+  activate(initialTab);
   for (const tab of tabs) {
     tab.addEventListener('click', () => activate(tab));
     tab.addEventListener('keydown', event => {
